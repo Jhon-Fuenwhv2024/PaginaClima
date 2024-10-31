@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta del Clima</title>
+
+    <!-- Cargar primero el CSS de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+    <link rel=" stylesheet"href="styles.css">
+
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta el Clima</h1>
+
+        <!-- Formulario de entrada -->
+        <form id="weatherForm">
+            <label for="city">Ciudad:</label>
+            <input type="text" id="city" name="city" placeholder="Ingresa una ciudad">
+            <span id="cityError" class="error"></span><br>
+
+            <button type="submit">Consultar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+
+        <!-- Tabla de resultados del clima -->
+        <div id="weatherResults">
+            <!-- Aquí se mostrará la tabla con los resultados -->
+        </div>
+
+        <!-- Contenedor centrado para el mapa -->
+        <div id="map-container">
+            <div id="map" style="height: 600px;"></div>
+        </div>
+    </div>
+
+    <!-- Cargar primero Leaflet.js -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Tu archivo JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
+

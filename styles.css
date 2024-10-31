@@ -1,0 +1,55 @@
+/* Estilo para centrar y limitar el ancho de todo el contenido */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el formulario */
+form {
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+}
+
+/* Estilo para la tabla de resultados */
+#weatherResults table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#weatherResults th, #weatherResults td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#weatherResults th {
+    background-color: #f2f2f2;
+}
+
+
+/* Sobrescribir estilos de Leaflet */
+.leaflet-container {
+    width: 50% !important; /* Asegúrate de que el mapa ocupe el 100% del contenedor */
+    height: 10px !important; /* Ajusta esta altura según tus necesidades */
+}
+
+.leaflet-control {
+    background: white; /* Cambia el fondo de los controles */
+    border: 1px solid #ccc; /* Cambia el borde de los controles */
+}
+
+/* Estilo para el mapa */
+#map {
+    width: 400px !important; /* Ajusta el ancho del mapa */
+    height: 400px !important; /* Ajusta la altura del mapa */
+    border: 1px solid #ddd !important; /* Opcional: Añade borde para distinguir el área del mapa */
+    margin: 0 auto; /* Centra el mapa en la página */
+}
+
