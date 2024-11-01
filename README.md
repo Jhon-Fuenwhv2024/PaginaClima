@@ -12,7 +12,6 @@ También cambia su tema visual dependiendo del clima consultado, ofreciendo una 
 - [Uso](#uso)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Funciones Clave](#funciones-clave)
-- [Futuras Mejoras](#futuras-mejoras)
 
 ---
 
@@ -66,9 +65,9 @@ También cambia su tema visual dependiendo del clima consultado, ofreciendo una 
 ## Estructura del Proyecto
 
 
-`├── index.html          # Página principal con el formulario y los resultados 
- ├── style.css           # Archivo CSS que define estilos y temas 
- ├── app.js              # Lógica JavaScript para manejar API y temas de clima 
+`├── index.html          # Página principal con el formulario y los resultados     
+ ├── style.css           # Archivo CSS que define estilos y temas             
+ ├── app.js              # Lógica JavaScript para manejar API y temas de clima          
  └── README.md           # Documentación del proyecto`
 
 ## Funciones Clave
