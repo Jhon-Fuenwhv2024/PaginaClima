@@ -12,6 +12,7 @@ También cambia su tema visual dependiendo del clima consultado, ofreciendo una 
 - [Uso](#uso)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Funciones Clave](#funciones-clave)
+- [Librerias usadas](#Librerías-Usadas)
 
 ---
 
@@ -84,3 +85,12 @@ También cambia su tema visual dependiendo del clima consultado, ofreciendo una 
 ### `fetchWeatherData(city)`
 
 - Realiza la consulta a la API de OpenWeatherMap para obtener los datos del clima y los muestra en la interfaz.
+
+ ## Librerías Usadas
+
+- **Leaflet.js** (autor:  Volodymyr Agafonkin, **Licencia**: BSD 2-Clause License) - Librería para mapas interactivos que permite agregar la ubicación de la ciudad consultada en un mapa.
+    
+    - [Repositorio de Leaflet.js](https://github.com/Leaflet/Leaflet)
+- **OpenWeatherMap API** - API pública que proporciona datos meteorológicos en tiempo real.
+    
+    - [Sitio de OpenWeatherMap](https://openweathermap.org/)
