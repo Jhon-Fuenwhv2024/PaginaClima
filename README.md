@@ -13,7 +13,7 @@ También cambia su tema visual dependiendo del clima consultado, ofreciendo una 
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Funciones Clave](#funciones-clave)
 - [Librerias usadas](#Librerías-Usadas)
-- [Página wev][#Pagina-web]
+- [Página weB](#Pagina-web)
 
 ---
 
